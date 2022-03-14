@@ -1,0 +1,9 @@
+.appDiv {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 1200px;
+    margin: 0 40px;
+}

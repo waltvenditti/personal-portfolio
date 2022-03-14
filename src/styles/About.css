@@ -1,0 +1,40 @@
+.aboutDiv {
+    height: auto;
+    width: 100%;
+    border: 2px solid green;
+}
+
+.innerAboutDiv {
+    display: flex;
+    border: 2px solid lime;
+    height: 100%;
+    width: 100%;
+}
+
+.innerAboutDiv img {
+    width: 400px;
+}
+
+.aboutInfoDiv {
+    border: 2px solid olive;
+    padding-left: 12px;
+}
+
+.aboutButtonDiv {
+    display: flex;
+    margin-right: 20px;
+}
+
+.aboutButtonDiv button {
+    background-color: transparent;
+    border: 0;
+    margin-left: 8px;
+}
+
+.aboutButtonDiv button:first-child {
+    margin-left: auto;
+}
+
+.aboutButtonDiv button img {
+    width: 32px;
+}

@@ -1,11 +1,14 @@
+import "./styles/App.css"
+import About from "./components/About"
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
-      <h1>
-      TEST TEST TEST TEST 
-      </h1>
-      <h2>Test test test</h2>
+    <div className="appDiv">
+     <About />
+     <Work />
+     <Contact />
     </div>
   );
 }

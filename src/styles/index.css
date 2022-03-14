@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url(../fonts/playfair-display/PlayfairDisplay-Regular.ttf)
+}
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(../fonts/roboto-condensed/RobotoCondensed-Regular.ttf)
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: red;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+}
