@@ -6,4 +6,11 @@
     border: 2px solid black;
     max-width: 1200px;
     margin: 0 40px;
+    margin-top: 20px;
 }
+
+.workH2 {
+    margin-bottom: 0;
+    margin-right: auto;
+}
+

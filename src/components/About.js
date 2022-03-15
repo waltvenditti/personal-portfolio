@@ -1,5 +1,5 @@
 import "../styles/About.css";
-import imgScientist from "../images/scientist-microscope.jpg"
+import imgScientist from "../images/scientist-microscope-cropped.jpg"
 import imgGitHub from "../images/github.svg";
 import imgLinkedin from "../images/linkedin.svg";
 
@@ -12,8 +12,10 @@ function About() {
           <h2>About Me</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, urna consequat felis vehicula class ultricies mollis dictumst, aenean non a in donec nulla. Phasellus ante pellentesque erat cum risus consequat imperdiet aliquam, integer placerat et turpis mi eros nec lobortis taciti, vehicula nisl litora tellus ligula porttitor metus. </p>
           <div className="aboutButtonDiv">
-            <button><img alt="GitHub link" src={imgGitHub}/></button>
-            <button><img alt="Linkedin link" src={imgLinkedin}/></button>
+            <a href="https://github.com/waltvenditti" target="_blank" rel="noreferrer">
+              <img alt="GitHub link" src={imgGitHub}/>
+            </a>
+            <a href="https://www.linkedin.com/in/walter-venditti-126712139" target="_blank" rel="noreferrer"><img alt="Linkedin link" src={imgLinkedin}/></a>
           </div>
         </div>
       </div>

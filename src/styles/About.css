@@ -9,6 +9,7 @@
     border: 2px solid lime;
     height: 100%;
     width: 100%;
+    align-items: center;
 }
 
 .innerAboutDiv img {
@@ -18,6 +19,8 @@
 .aboutInfoDiv {
     border: 2px solid olive;
     padding-left: 12px;
+    height: 75%;
+    background-color: white;
 }
 
 .aboutButtonDiv {
@@ -25,16 +28,16 @@
     margin-right: 20px;
 }
 
-.aboutButtonDiv button {
+.aboutButtonDiv a {
     background-color: transparent;
     border: 0;
-    margin-left: 8px;
+    margin-left: 16px;
 }
 
-.aboutButtonDiv button:first-child {
+.aboutButtonDiv a:first-child {
     margin-left: auto;
 }
 
-.aboutButtonDiv button img {
+.aboutButtonDiv a img {
     width: 32px;
 }
