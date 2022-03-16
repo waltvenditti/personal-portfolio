@@ -19,13 +19,19 @@
 .aboutInfoDiv {
     border: 2px solid olive;
     padding-left: 12px;
+    padding-right: 12px;
     height: 75%;
     background-color: white;
 }
 
+.aboutInfoDiv p {
+    font-family: "Roboto Condensed";
+    color: rgb(70, 70, 70);
+}
+
 .aboutButtonDiv {
     display: flex;
-    margin-right: 20px;
+    
 }
 
 .aboutButtonDiv a {

@@ -6,8 +6,61 @@
     gap: 24px;
 }
 
+
 .workCardDiv {
-    width: auto;
-    height: 300px;
+    height: 360px;
     border: 2px solid coral;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+
+.wcdGridItem {
+    border: 1px solid black;
+}
+
+.wcdScreenshot {
+    background-color: steelblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcdScreenshot span {
+    color: white;
+    font-size: 24px;
+}
+
+.wcdDesc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.wcdDescHeader {
+    display: flex;
+    align-items: center;
+}
+
+.imgHyperlink {
+    margin-left: auto;
+}
+
+.wcdDescHeader a {
+    margin-right: 6px;
+}
+
+.wcdDescHeader img {
+    width: 24px;
+}
+
+.wcdDescText {
+    font-family: "Roboto Condensed";
+    color: rgb(70, 70, 70);
+}
+
+.wcdDescText p {
+    margin-top: 0;
 }
