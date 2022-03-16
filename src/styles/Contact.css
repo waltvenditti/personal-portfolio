@@ -2,20 +2,28 @@
     width: 100%;
     border: 2px solid blue;
     background-color: steelblue;
+    display: flex;
 }
 
 .contactDiv p {
     color: white;
     font-family: "Roboto Condensed";
+    margin-top: 0;
 }
 
-.contactDiv p:first-child {
+.contactDiv h2 {
     font-size: 24px;
     font-family: "Playfair Display";
+    color: white;
+    margin-top: 8px;
 }
 
-.contactDiv {
-    display: flex;
+.addressDiv {
+    margin-bottom: 20px;
+}
+
+.addressDiv p {
+    margin-bottom: 0;
 }
 
 .contactInfoDiv {
@@ -44,3 +52,26 @@
     margin-left: 16px;
 }
 
+.emailInfo {
+    display: flex;
+    align-items: center;
+}
+
+.emailInfo img {
+    width: 24px;
+}
+
+.emailInfo span {
+    color: white;
+    margin-left: 16px;
+}
+
+.personalWebsiteIcons {
+    display: flex;
+    margin-top: 12px;
+}
+
+.personalWebsiteIcons img {
+    width: 28px;
+    margin-right: 16px;
+}
