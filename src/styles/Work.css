@@ -1,15 +1,14 @@
 .workDiv {
     width: 100%;
-    border: 2px solid orange;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+    margin-bottom: 48px;
 }
 
 
 .workCardDiv {
     height: 360px;
-    border: 2px solid coral;
     display: grid;
     grid-template-rows: 3fr 2fr;
 }

@@ -1,6 +1,5 @@
 .contactDiv {
     width: 100%;
-    border: 2px solid blue;
     background-color: steelblue;
     display: flex;
 }
@@ -35,7 +34,7 @@
 
 .contactImgDiv img {
     width: 500px;
-    margin: 24px 48px;
+    margin: 24px 36px;
 }
 
 .phoneInfo {

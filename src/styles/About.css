@@ -1,12 +1,10 @@
 .aboutDiv {
     height: auto;
     width: 100%;
-    border: 2px solid green;
 }
 
 .innerAboutDiv {
     display: flex;
-    border: 2px solid lime;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -17,7 +15,6 @@
 }
 
 .aboutInfoDiv {
-    border: 2px solid olive;
     padding-left: 12px;
     padding-right: 12px;
     height: 75%;
