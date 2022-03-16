@@ -1,5 +1,46 @@
 .contactDiv {
-    height: 200px;
-    width: 200px;
+    width: 100%;
     border: 2px solid blue;
+    background-color: steelblue;
 }
+
+.contactDiv p {
+    color: white;
+    font-family: "Roboto Condensed";
+}
+
+.contactDiv p:first-child {
+    font-size: 24px;
+    font-family: "Playfair Display";
+}
+
+.contactDiv {
+    display: flex;
+}
+
+.contactInfoDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.contactImgDiv img {
+    width: 500px;
+    margin: 24px 48px;
+}
+
+.phoneInfo {
+    display: flex;
+    align-items: center;
+}
+
+.phoneInfo img {
+    width: 24px;
+}
+
+.phoneInfo span {
+    color: white;
+    margin-left: 16px;
+}
+
