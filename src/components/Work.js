@@ -54,12 +54,15 @@ function Work() {
 
   return (
     <div className="workDiv">
-      <WorkCard cardInfo={projInfo1} />
-      <WorkCard cardInfo={projInfo2} />
-      <WorkCard cardInfo={projInfo3} />
-      <WorkCard cardInfo={projInfo4} />
-      <WorkCard cardInfo={projInfo5} />
-      <WorkCard cardInfo={projInfo6} />
+      <h2>My Work</h2>
+      <div className="workGridDiv">
+        <WorkCard cardInfo={projInfo1} />
+        <WorkCard cardInfo={projInfo2} />
+        <WorkCard cardInfo={projInfo3} />
+        <WorkCard cardInfo={projInfo4} />
+        <WorkCard cardInfo={projInfo5} />
+        <WorkCard cardInfo={projInfo6} />
+      </div>
     </div>
   );
 }

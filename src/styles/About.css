@@ -1,13 +1,14 @@
 .aboutDiv {
     height: auto;
     width: 100%;
+    margin-top: 32px;
 }
 
 .innerAboutDiv {
     display: flex;
-    height: 100%;
-    width: 100%;
     align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .innerAboutDiv img {

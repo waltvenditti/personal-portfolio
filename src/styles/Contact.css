@@ -15,6 +15,7 @@
     font-family: "Playfair Display";
     color: white;
     margin-top: 8px;
+    margin-left: 0;
 }
 
 .addressDiv {
@@ -28,13 +29,13 @@
 .contactInfoDiv {
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
     margin-top: 16px;
+    margin-left: 40px;
 }
 
 .contactImgDiv img {
-    width: 500px;
-    margin: 24px 36px;
+    width: 450px;
+    margin: 24px 40px;
 }
 
 .phoneInfo {

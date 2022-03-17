@@ -16,24 +16,24 @@ function Contact() {
           <p>Somewhere, Ohio 12345</p>
         </div>
         <div className="phoneInfo">
-          <img src={imgPhoneIcon} />
+          <img src={imgPhoneIcon} alt="phone icon" />
           <span>555-555-5555</span>
         </div>
         <div className="emailInfo">
-          <img src={imgEmailIcon} />
+          <img src={imgEmailIcon} alt="email icon" />
           <span>waltvenditti@gmail.com</span>
         </div>
         <div className="personalWebsiteIcons">
           <a href="https://github.com/waltvenditti" target="_blank" rel="noreferrer">
-            <img src={imgGithubIcon} />
+            <img src={imgGithubIcon} alt="github icon" />
           </a>
           <a href="https://www.linkedin.com/in/walter-venditti-126712139" target="_blank" rel="noreferrer">
-            <img src={imgLinkedinIcon} />
+            <img src={imgLinkedinIcon} alt="linkedin icon" />
           </a>
         </div>
       </div>
       <div className="contactImgDiv">
-        <img src={imgCompScreen} />
+        <img src={imgCompScreen} alt="screenshot of some computer code" />
       </div>
     </div>
   );
