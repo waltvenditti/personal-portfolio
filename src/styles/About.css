@@ -2,6 +2,7 @@
     height: auto;
     width: 100%;
     margin-top: 32px;
+    background-image: linear-gradient(165deg, steelblue 65%, whitesmoke 65.5%, transparent 50%);
 }
 
 .innerAboutDiv {
@@ -9,10 +10,11 @@
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
+    height: 440px;
 }
 
 .innerAboutDiv img {
-    width: 400px;
+    max-width: 400px;
 }
 
 .aboutInfoDiv {
@@ -20,6 +22,7 @@
     padding-right: 12px;
     height: 75%;
     background-color: white;
+    box-shadow: 3px 3px 8px rgb(189, 189, 189);
 }
 
 .aboutInfoDiv p {
