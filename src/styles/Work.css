@@ -71,3 +71,9 @@ h2 {
 .wcdDescText p {
     margin-top: 0;
 }
+
+@media (max-width: 940px) {
+    .workGridDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

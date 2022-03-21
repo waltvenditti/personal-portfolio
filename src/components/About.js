@@ -6,6 +6,7 @@ import imgLinkedin from "../images/linkedin.svg";
 function About() {
   return (
     <div className="aboutDiv">
+      <h1>Walter Venditti</h1>
       <div className="innerAboutDiv">
         <img alt="scientist looking through microscope" src={imgScientist} />
         <div className="aboutInfoDiv">
