@@ -63,4 +63,7 @@
     .innerAboutDiv img {
         max-width: 300px;
     }
+    .aboutInfoDiv {
+        height: 62%;
+    }
 }
