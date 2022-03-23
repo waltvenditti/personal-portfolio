@@ -71,6 +71,8 @@
 @media (max-width: 680px) {
     .innerAboutDiv {
         flex-direction: column;
-        height: auto;
+    }
+    .aboutInfoDiv {
+        max-width: 300px;
     }
 }

@@ -77,3 +77,20 @@ h2 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (max-width: 680px) {
+    .workGridDiv {
+        grid-template-columns: 1fr;
+    }
+    .workDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .workDiv h2 {
+        margin: 20px 0;
+    }
+    .workCardDiv {
+        min-width: 300px;
+    }
+}
