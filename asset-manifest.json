@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.e7a12432.css",
+    "main.js": "/personal-portfolio/static/js/main.c13adb98.js",
+    "static/media/scientist-microscope-cropped.jpg": "/personal-portfolio/static/media/scientist-microscope-cropped.349b6c23e898188518f8.jpg",
+    "static/media/PlayfairDisplay-Regular.ttf": "/personal-portfolio/static/media/PlayfairDisplay-Regular.b982583b4edccc394bb4.ttf",
+    "static/media/RobotoCondensed-Regular.ttf": "/personal-portfolio/static/media/RobotoCondensed-Regular.b76c85260df02c11c630.ttf",
+    "static/media/computer-screen.jpeg": "/personal-portfolio/static/media/computer-screen.d044364975b0a6986a7c.jpeg",
+    "static/media/github.svg": "/personal-portfolio/static/media/github.aca0843252807bb6d1229e8179a46676.svg",
+    "static/media/github-notext.svg": "/personal-portfolio/static/media/github-notext.3c903c66b2c5334c8c0b80567c4ea422.svg",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/linkedin.svg": "/personal-portfolio/static/media/linkedin.d4e41ebf9944039eda7765856fb1279c.svg",
+    "main.e7a12432.css.map": "/personal-portfolio/static/css/main.e7a12432.css.map",
+    "main.c13adb98.js.map": "/personal-portfolio/static/js/main.c13adb98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7a12432.css",
+    "static/js/main.c13adb98.js"
+  ]
+}
